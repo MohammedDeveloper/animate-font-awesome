@@ -1,0 +1,54 @@
+* {
+    margin: 0 !important;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#app-header {
+    background-image: url('../wallpaper.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px;
+    line-height: 1.9;
+}
+
+    #app-header h1 {
+        color: rgb(27, 11, 3);
+        font-family: 'Segoe UI', Arial, sans-serif;
+        font-weight: 400;
+    }
+
+    #app-header div {
+        color: #fff;
+        margin-bottom: 10px !important;
+    }
+
+    #app-header button#readMore {
+        padding: 5px 10px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid #945f0b;
+    }
+
+        #app-header button#readMore:hover {
+            background-color: #b78b28;
+            color: white;
+        }
+
+#footer {
+    text-align: end;
+}
+
+span {
+    padding: 10px;
+}
